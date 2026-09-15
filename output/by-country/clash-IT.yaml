@@ -44,21 +44,6 @@ proxies:
     short-id: 37fbf155c7a9f3ff
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇮🇹 意大利 (Italy) 05 - xiaohe
-  server: 116.204.164.5
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 2416ff70-cb17-4cdc-834d-a89c00261e01
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,7 +53,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 02 - xiaohe
   - 🇮🇹 意大利 (Italy) 03 - xiaohe
   - 🇮🇹 意大利 (Italy) 04 - xiaohe
-  - 🇮🇹 意大利 (Italy) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -78,6 +62,5 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 02 - xiaohe
   - 🇮🇹 意大利 (Italy) 03 - xiaohe
   - 🇮🇹 意大利 (Italy) 04 - xiaohe
-  - 🇮🇹 意大利 (Italy) 05 - xiaohe
 rules:
 - MATCH,PROXIES

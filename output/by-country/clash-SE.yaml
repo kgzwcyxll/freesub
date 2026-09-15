@@ -5,7 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 79.141.174.147
+  server: 143.246.193.215
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+  servername: www.blocket.se
+  client-fingerprint: randomized
+- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+  server: 193.42.39.10
   port: 33743
   udp: true
   type: vless
@@ -18,21 +30,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 2.26.91.98
-  port: 1443
-  udp: true
-  type: vless
-  uuid: 487273f5-4aeb-4631-b197-2e169dffc285
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
