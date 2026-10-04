@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.72.213
+  server: pew.dianawmoon.dpdns.org
   port: 443
   udp: true
   type: vless

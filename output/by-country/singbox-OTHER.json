@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.72.213",
+      "server": "pew.dianawmoon.dpdns.org",
       "server_port": 443,
       "uuid": "a2c57a6c-dacb-44d1-9055-fb42d4c888a5",
       "tls": {
