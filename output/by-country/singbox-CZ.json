@@ -5,14 +5,14 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇮🇷 IR 01 - xiaohe",
-      "server": "199.232.78.160",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "104.21.16.123",
       "server_port": 443,
-      "password": "mitivpn",
+      "password": "Telegram_healer_config",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": false,
+        "server_name": "7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev",
+        "insecure": true,
         "alpn": [
           "http/1.1"
         ],
@@ -23,8 +23,9 @@
       },
       "transport": {
         "type": "ws",
+        "path": "/tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560",
         "headers": {
-          "Host": "mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net"
+          "Host": "7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev"
         }
       }
     },
@@ -33,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇷 IR 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
